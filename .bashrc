@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 
 sl -ae
-(espeak "Welcome back" &)
+# (espeak "Shut up" &)
 clear
-fortune -as| cowsay
+fortune -as /usr/share/games/fortunes/literature | cowsay
 echo
